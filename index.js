@@ -18,10 +18,11 @@ const facts = [
 ];
 
 function johnLennonFacts(facts) {
+  var stringArray = []
   while (i <= facts.length) {
-    facts.push(facts[i] + "!!!");
+    stringArray.push(facts[i] + "!!!");
   }
-  return facts;
+  return stringArray;
 }
 
 function iLoveTheBeatles(n) {
