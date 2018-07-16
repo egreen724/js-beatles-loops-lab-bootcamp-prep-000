@@ -15,4 +15,5 @@ function johnLennonFacts(facts) {
   while (facts) {
     c
   }
+  return newArray2;
 }
