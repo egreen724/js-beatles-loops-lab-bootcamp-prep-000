@@ -19,7 +19,7 @@ const facts = [
 
 function johnLennonFacts(facts) {
   var newArray2 = []
-  while (facts >= i) {
+  while (facts >= 0) {
     newArray2.unshift(facts[i] + "!!!")
   }
   return newArray2;
