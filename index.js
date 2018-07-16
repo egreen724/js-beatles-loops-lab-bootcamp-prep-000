@@ -19,7 +19,7 @@ const facts = [
 
 function johnLennonFacts(facts) {
   var newArray2 = []
-  while (facts < 4) {
+  while (facts >= 0) {
     newArray2.push(facts[i] + "!!!")
   }
   return newArray2;
