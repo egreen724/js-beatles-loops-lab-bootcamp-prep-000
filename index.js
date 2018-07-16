@@ -18,9 +18,13 @@ const facts = [
 ];
 
 function johnLennonFacts(facts) {
-  var newArray2 = [];
   while (facts >= 0) {
-    newArray2.unshift(facts[i] + "!!!");
+    facts.unshift(facts[i] + "!!!");
   }
-  return newArray2;
+  return facts;
+}
+
+function iLoveTheBeatles(n) {
+  var newArray2 = []
+  
 }
