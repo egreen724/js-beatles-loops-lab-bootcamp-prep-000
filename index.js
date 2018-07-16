@@ -22,5 +22,5 @@ function johnLennonFacts(facts) {
   while (facts >= 0) {
     newArray2.unshift(facts[i] + "!!!");
   }
-  console.log(newArray2);
+  return newArray2;
 }
